@@ -46,10 +46,10 @@ class Platformer(arcade.Window):
 
         # Load up our sounds here
         self.coin_sound = arcade.load_sound(
-            str(ASSETS_PATH / "sounds" / "coin.wav")
+            str(ASSETS_PATH / "sounds" / "coin.ogg")
         )
         self.jump_sound = arcade.load_sound(
-            str(ASSETS_PATH / "sounds" / "jump.wav")
+            str(ASSETS_PATH / "sounds" / "jump.ogg")
         )
         self.victory_sound = arcade.load_sound(
             str(ASSETS_PATH / "sounds" / "victory.wav")
