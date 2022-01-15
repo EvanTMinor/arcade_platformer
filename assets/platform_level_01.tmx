@@ -418,9 +418,25 @@
 </data>
  </layer>
  <objectgroup id="6" name="coins">
-  <object id="1" gid="23" x="832.97" y="2930.67" width="128" height="128"/>
-  <object id="2" gid="23" x="1211.76" y="2800.36" width="128" height="128"/>
-  <object id="3" gid="24" x="1393.58" y="2891.27" width="128" height="128"/>
-  <object id="4" gid="24" x="2005.7" y="2270.06" width="128" height="128"/>
+  <object id="1" gid="23" x="832.97" y="2930.67" width="128" height="128">
+   <properties>
+    <property name="point_value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="2" gid="23" x="1211.76" y="2800.36" width="128" height="128">
+   <properties>
+    <property name="point_value" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="3" gid="24" x="1393.58" y="2891.27" width="128" height="128">
+   <properties>
+    <property name="point_value" type="int" value="20"/>
+   </properties>
+  </object>
+  <object id="4" gid="24" x="2005.7" y="2270.06" width="128" height="128">
+   <properties>
+    <property name="point_value" type="int" value="20"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
